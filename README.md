@@ -3,5 +3,5 @@ eMule0.51d使用的第三方库zlib，本文使用版本为1.2.11，下载地址
 使用方法：
 下载，解压缩
 打开zlib-1.2.11\contrib\vstudio\vc14\vc14\zlibvc.sln,此版本解决方案中共有6个项目。重新编译zlibvc即可。
-在zlibvc的项目属性页中 配置:debug->配置类型:静态库(.lib)->应用;配置:Release->配置类型:静态库(.lib)->应用。eMule0.51d的第三方库的引用方式不同。
+在zlibvc的项目属性页中 配置:debug->配置类型:静态库(.lib)->应用;配置:Release->配置类型:静态库(.lib)->应用。eMule0.51d的各个第三方库的引用方式不同。这一点要特别注意。
 
